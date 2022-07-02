@@ -13,17 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\Utils">
-      <UniqueIdentifier>{1fc8ccf7-49d6-40a6-bb67-dfebf7bf7d72}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="main_5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Utils\Utils.cpp">
-      <Filter>源文件\Utils</Filter>
+    <ClCompile Include="Utils.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="FragShader.glsl">
@@ -32,10 +37,5 @@
     <None Include="VertexShader.glsl">
       <Filter>源文件</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Utils\Utils.h">
-      <Filter>源文件\Utils</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
